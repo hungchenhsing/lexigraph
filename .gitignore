@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.log
+
+# Local build/backup artifacts
+release/
+.round23-bak/
+vite.config.ts.timestamp-*.mjs
+__pycache__/
+.env*
+!.env.example

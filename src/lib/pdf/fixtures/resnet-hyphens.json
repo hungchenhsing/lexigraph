@@ -1,0 +1,26 @@
+{
+  "source": "arXiv 1512.03385 ResNet, pdf.js text items with hasEOL",
+  "soft": [
+    {
+      "prev": " unreferenced functions. We provide com-",
+      "next": "prehensive empirical evidence showing th",
+      "head": "com",
+      "tail": "prehensive",
+      "joined": "comprehensive"
+    },
+    {
+      "prev": "The extremely deep rep-",
+      "next": "resentations also have excellent general",
+      "head": "rep",
+      "tail": "resentations",
+      "joined": "representations"
+    },
+    {
+      "prev": ", then it is equiv-",
+      "next": "alent to hypothesize that they can asymp",
+      "head": "equiv",
+      "tail": "alent",
+      "joined": "equivalent"
+    }
+  ]
+}

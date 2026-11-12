@@ -1,0 +1,14 @@
+{
+  // Static-asset Worker. Routes are intentionally omitted: the custom domain
+  // read.zhenxinghong.com is attached in the dashboard, and Wrangler leaves
+  // dashboard routes alone when no `route` / `routes` key is set and
+  // workers_dev is false. Do not add the hostname here unless this file
+  // should become the source of truth for that domain.
+  "name": "lexigraph",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist"
+  }
+}

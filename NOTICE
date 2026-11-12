@@ -1,0 +1,13 @@
+Lexigraph
+Copyright (c) 2026 Zhenxing Hong
+
+This product includes pdf.js (https://github.com/mozilla/pdf.js),
+Copyright Mozilla Foundation and contributors, licensed under the Apache License 2.0.
+
+This product includes ECDICT (https://github.com/skywind3000/ECDICT),
+Copyright skywind3000, licensed under the MIT License.
+The bundled file public/dict/ecdict-core.json.gz is a filtered subset
+produced by scripts/prepare-ecdict.mjs.
+
+Academic Word List tags in src/lib/dict/seed.ts mark words already curated
+for this project. The full Coxhead (2000) sublist file is not included.

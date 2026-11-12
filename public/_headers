@@ -1,0 +1,14 @@
+# Fingerprinted Vite output. A year is safe because the filename changes on each build.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The shell and the service worker must revalidate so a deploy is picked up.
+/sw.js
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+# /dict/ecdict-core.json.gz is already a gzip payload. The app checks the
+# gzip magic bytes and decompresses it. Do not set Content-Encoding on that
+# file; leave it served as the raw bytes.

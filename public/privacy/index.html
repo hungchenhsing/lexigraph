@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy · Lexigraph</title>
+    <meta name="description" content="Lexigraph keeps PDFs, word lists, notes, and API keys in your browser. AI requests go directly to the provider you choose." />
+    <link rel="icon" href="../icon.svg" />
+    <style>
+      body { margin: 0; font: 16px/1.6 system-ui, sans-serif; background: #f8fafc; color: #0f172a; }
+      main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+      a { color: #0369a1; }
+      h1 { font-size: 1.75rem; line-height: 1.2; }
+      h2 { font-size: 1.1rem; margin-top: 1.75rem; }
+      .en { color: #334155; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="../">← Lexigraph</a></p>
+      <h1>Privacy · 隱私</h1>
+      <p class="en">Lexigraph is a static reader. It has no accounts and does not upload your library to a Lexigraph server.</p>
+      <p>Lexigraph 是純靜態的閱讀器。沒有帳號，也不會把書庫上傳到 Lexigraph 的伺服器。</p>
+      <h2>What stays in this browser · 留在瀏覽器裡</h2>
+      <ul>
+        <li class="en">PDFs, word familiarity, notes, review schedule, and phrase bookmarks live in IndexedDB on this device.</li>
+        <li>你打開的 PDF、單字熟悉度、筆記、複習排程和片語都在這台裝置的 IndexedDB。</li>
+        <li class="en">Gemini and Groq API keys, if you save them, live in localStorage. Backups leave them out unless you opt in.</li>
+        <li>若你填了 API key，它只在 localStorage。備份預設不含 key。</li>
+      </ul>
+      <h2>AI calls · AI 請求</h2>
+      <p class="en">When you ask for an explanation, your browser calls the provider you chose — Google Gemini, Groq, or Ollama on your own machine. Lexigraph does not proxy or store those requests.</p>
+      <p>你要求解釋時，瀏覽器直接連到你選的服務（Gemini、Groq，或你自己的 Ollama）。Lexigraph 不代轉，也不保存這些請求。</p>
+      <p class="en">Clearing this site’s data in the browser deletes the library. Export a backup first.</p>
+      <p>清除這個網站的瀏覽器資料會刪掉書庫。請先匯出備份。</p>
+    </main>
+  </body>
+</html>
